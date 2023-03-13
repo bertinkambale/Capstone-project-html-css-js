@@ -1,0 +1,285 @@
+body {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'lato', sans-serif;
+  }
+.twitter{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 8%;
+    height: 5vh;
+}
+.twitter a{
+    text-decoration: none;
+    color:white;
+    padding-left: 3%;
+    padding-top: 5px;
+}
+.navlogo{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    padding-left: 3%;
+    height: 10vh;
+}
+.navlogo img{
+    padding-top: 10px;
+}
+.navlogo ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.navlogo ul li{
+    list-style: none;
+    padding-right: 50%;
+}
+.navlogo ul li a{
+    text-decoration: none;
+    color:black;
+}
+.grtittle{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-position: center;
+background-size: cover;
+    background-image:  linear-gradient(180.45deg, rgba(182, 175, 175, 0) 2.75%, rgba(246, 242, 242, 0.9) 15.94%), url(img-folder/Background1.jpg);
+}
+.grtittle h1{
+    display: flex;
+    justify-content: center;
+    color:red;
+    font-weight: bold;
+    font-size:xx-large;
+}
+.centerpar{
+margin-left: 20%;
+margin-right: 20%;
+text-align: center;
+background-color: rgb(245, 245, 245);
+padding: 3% 5% 3% 5%;
+display: flex;
+}
+.contactclass1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactclass2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.contactclass3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linebar{
+    background-color: rgb(250, 46, 46);
+    border-color: rgb(250, 46, 46);
+    height: 1px;
+    width: 40px;
+}
+.classlog{
+    border-bottom: 1px solid grey;
+}
+.classlog img{
+ padding-right: 40%;
+ padding-left: 40%;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+.classlog h2{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.classlog p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.vissonsee h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.vissonsee p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vissonsee div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+padding-left: 20%;
+padding-right: 20%;
+ background-color: rgb(46, 46, 46);
+ color:white;
+ height: 120px;
+}
+
+/*----------------------------------------small devices----------------------------------------------*/
+@media(max-width:768px){
+    body {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        font-family: 'lato', sans-serif;
+      }
+      .twitter{
+        display: none;
+    }
+    .navlogo a{
+        display:none;
+    }
+    .navlogo ul{
+        display:none;
+    }
+    .hamburg {
+        display: block;
+        padding-top: 5%;
+        padding-left: 5%;
+      }
+    
+      .hamburg.active {
+        display: block;
+        padding-top: 5%;
+        padding-left: 5%;
+        z-index: 5;
+        position: fixed;
+      }
+    
+      .hamburg1 {
+        margin: 5px;
+        background: rgb(0, 0, 0);
+        height: 5px;
+        width: 30px;
+        border-radius: 5px;
+      }
+    
+      .hamburg2 {
+        margin: 5px;
+        background: rgb(0, 0, 0);
+        height: 5px;
+        width: 30px;
+        border-radius: 5px;
+      }
+    
+      .hamburg3 {
+        margin: 5px;
+        background: rgb(0, 0, 0);
+        height: 5px;
+        width: 30px;
+        border-radius: 5px;
+      }
+    
+      .hamburg.active .hamburg1 {
+        transform: rotate(45deg);
+        width: 35px;
+      }
+    
+      .hamburg.active .hamburg2 {
+        transform: translateY(-9px) rotate(-45deg);
+        width: 35px;
+      }
+    
+      .hamburg.active .hamburg3 {
+        display: none;
+      }
+      .grtittle h1{
+        display: flex;
+        justify-content: center;
+        color:red;
+        font-weight: bold;
+        font-size:x-large;
+    }
+    .grtittle{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-position: center;
+    background-size: cover;
+        background-image:  linear-gradient(180.45deg, rgba(182, 175, 175, 0) 2.75%, rgba(246, 242, 242, 0.9) 15.94%), url(img-folder/Background1.jpg);
+    }
+    .centerpar{
+        margin-left: 7%;
+        margin-right: 7%;
+        text-align: center;
+        background-color: rgb(245, 245, 245);
+        padding: 3% 2% 3% 2%;
+        display: flex;
+    }
+    .classlog{
+        border-bottom: 1px solid grey;
+    }
+    .classlog img{
+     height: 40vw;
+     padding-left: 30%;
+     padding-right: 20%;
+     padding-bottom: 10%;
+     padding-top: 10%;
+    }
+    .classlog h2{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    .classlog p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: center;
+    }
+    .vissonsee h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+    }
+    .vissonsee p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .vissonsee div{
+        display: flex;
+        flex-direction: column;
+        gap:15px;
+        padding-bottom: 20px;
+       
+    }
+    footer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap:1px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    padding-top: 10px;
+     background-color: rgb(46, 46, 46);
+     color:white;
+     
+    }
+}      
