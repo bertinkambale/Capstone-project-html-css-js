@@ -105,6 +105,7 @@ Don't have it.
 > Add a link to your deployed project.
 
 - [Live Demo Link](https://bertinkambale.github.io/Capstone-project-html-css-js/)
+- [Live Demo Link](https://www.loom.com/share/aa3297da89f746acb0c99261d995b02b)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
