@@ -32,9 +32,9 @@ header {
   justify-content: space-between;
   background-color: white;
   padding-left: 10%;
-  height: 10vh;
+  height: 60px;
   position: fixed;
-  width: 93%;
+  width: 100%;
 }
 
 .navlogo img {
@@ -56,11 +56,13 @@ header {
 .navlogo ul {
   display: flex;
   justify-content: flex-end;
+  padding-right: 16%;
 }
 
 .navlogo ul li {
   list-style: none;
-  padding-right: 50%;
+  padding-right:10%;
+  padding-left: 10%;
 }
 
 .navlogo ul li a {
@@ -306,11 +308,18 @@ footer {
 
   .navlogo {
     padding-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+    position: fixed;
+    width: 100%;
   }
 
   .navlogo ul {
     display: flex;
     justify-content: center;
+    padding-right: 2%;
   }
 
   .navlogo ul li {
