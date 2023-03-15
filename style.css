@@ -5,7 +5,11 @@ body {
     margin-bottom: 0%;
     font-family: 'lato', sans-serif;
   }
-
+header{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
 .twitter{
     background-color: black;
     display: flex;
@@ -13,18 +17,22 @@ body {
     padding-right: 8%;
     height: 5vh;
 }
+
 .twitter a{
     text-decoration: none;
     color:white;
     padding-left: 3%;
     padding-top: 5px;
 }
+
 .navlogo{
     display: flex;
     justify-content: space-between;
     background-color:white;
-    padding-left: 3%;
+    padding-left: 10%;
     height: 10vh;
+    position: fixed;
+    width: 93%;
 }
 .navlogo img{
     padding-top: 10px;
@@ -48,7 +56,7 @@ body {
     border-top: 1px solid rgba(246, 242, 242, 0.9);
     padding-left: 12%;
     padding-bottom:5%;
-    padding-top: 5%;
+    padding-top: 15%;
     margin-bottom: -1.5%;
 }
 .kamuclass h1{
@@ -105,6 +113,10 @@ color: rgb(250, 46, 46);
 height: 10%;
 margin-left: 2%;
 }
+.bloc1 img{
+  width: 100%;
+  height: 120px;
+}
 .seeall{
     margin-bottom: 0;
 }
@@ -126,6 +138,8 @@ text-decoration: none;
 .blocteacher{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -135,10 +149,24 @@ width: 40vw;
 margin: 2% 2% 2% 2%;
 display: flex;
 flex-direction: row;
+font-size: 16px;
+height: 200px;
 }
 .cardteach img{
-height: 20vh;
-padding: 2% 2% 2% 2%
+  width: 120px;
+  height: 120px;
+  padding: 2% 2% 2% 2%
+}
+.italic{
+  color: rgb(250, 46, 46);
+  font-size: 14px;
+  font-style: italic;
+}
+.picteach{
+  height: 120px;
+}
+.picteach h3{
+  font-size: 20px;
 }
 .partners h3{
     display: flex;
@@ -156,7 +184,8 @@ margin-bottom: 0;
     display: flex;
     justify-content: center;
     gap: 10vw;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    width: 90%;
 }
 .partners li{   
  list-style: none;
@@ -167,7 +196,8 @@ color: rgb(196, 196, 196);
 footer{
     display: flex;
     justify-content: center;
-    gap:10%;
+    gap:6%;
+    padding-bottom: 10px;
 }
 
 /*----------------------------------------small devices----------------------------------------------*/
@@ -182,8 +212,12 @@ footer{
       .twitter{
         display: none;
     }
-    .navlogo a{
-        display:none;
+    .twitter.display{
+      display: none;
+    }
+
+    .img-logo{
+      display: none;
     }
     
     .hamburg {
@@ -192,7 +226,7 @@ footer{
         padding-left: 5%;
       }
     
-      .hamburg.active {
+      .hamburg.display {
         display: block;
         padding-top: 5%;
         padding-left: 5%;
@@ -224,48 +258,70 @@ footer{
         border-radius: 5px;
       }
     
-      .hamburg.active .hamburg1 {
+      .hamburg.display .hamburg1 {
         transform: rotate(45deg);
         width: 35px;
       }
     
-      .hamburg.active .hamburg2 {
+      .hamburg.display .hamburg2 {
         transform: translateY(-9px) rotate(-45deg);
         width: 35px;
       }
     
-      .hamburg.active .hamburg3 {
+      .hamburg.display .hamburg3 {
         display: none;
+      }
+      .navlogo{
+        padding-left: 2%;
+      }
+      .navlogo ul{
+        display: flex;
+        justify-content: center;
+      }
+      .navlogo ul li{
+          list-style: none;
+          gap:5%;
+          
+
+      }
+      .navlogo ul li a{
+          text-decoration: none;
+          color:black;
       }
       .menu {
         display: flex;
         flex-direction: column;
         position: fixed;
-        top: 0%;
+        top: -36%;
         background-color: rgba(170, 165, 165, 0.9);
-        height: 100vh;
+        height: 150vh;
         width: 100vw;
-        padding: 30% 5% 5% 10%;
-        gap: 12%;
+        padding: 30% 5% 5% 15%;
+        gap: 9%;
         font-size: 30px;
         font-weight: 800;
         left: -120%;
         transition: 0.2s;
       }
-    
-      .menu.active {
+      
+      .menu.display {
         display: flex;
         flex-direction: column;
         position: fixed;
-        top: 0%;
+        top: -36%;
         background-color: rgba(170, 165, 165, 0.9);
         width: 100vw;
+        height: 150vw;
         padding: 30% 5% 5% 10%;
-        gap: 12%;
+        gap: 9%;
         font-size: 30px;
         font-weight: 800;
         left: 0%;
         backdrop-filter: blur(6px);
+      }
+
+      .hiden{
+        display: none;
       }
     
       .kamuclass{
@@ -274,7 +330,7 @@ footer{
         background-position: center;
         border-top: 1px solid rgba(246, 242, 242, 0.9);
         padding-bottom:5%;
-        padding-top: 5%;
+        padding-top: 15%;
         margin-bottom: -1.5%;
       }
       .stating-date{
@@ -326,6 +382,12 @@ footer{
         text-align:justify;
         padding-right: 2%;
         }
+
+        .bloc1 img{
+          width: 100px;
+          height: 120px;
+        }
+        
         .blocteacher{
             display: flex;
             flex-direction: column;
@@ -337,6 +399,10 @@ footer{
         display: flex;
         justify-content: space-between;
         width: 85vw;
+        }
+        .cardteach img{
+          width: 120px;
+          height: 120px;
         }
         .cardteach p{
         text-align: justify;
