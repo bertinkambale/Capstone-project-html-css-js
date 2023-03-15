@@ -89,7 +89,7 @@ display: flex;
 }
 .classlog img{
  padding-right: 40%;
- padding-left: 40%;
+ padding-left: 33%;
  padding-top: 10px;
  padding-bottom: 10px;
 }
@@ -161,7 +161,7 @@ padding-right: 20%;
         padding-left: 5%;
       }
     
-      .hamburg.active {
+      .hamburg.display {
         display: block;
         padding-top: 5%;
         padding-left: 5%;
@@ -193,19 +193,52 @@ padding-right: 20%;
         border-radius: 5px;
       }
     
-      .hamburg.active .hamburg1 {
+      .hamburg.display .hamburg1 {
         transform: rotate(45deg);
         width: 35px;
       }
     
-      .hamburg.active .hamburg2 {
+      .hamburg.display .hamburg2 {
         transform: translateY(-9px) rotate(-45deg);
         width: 35px;
       }
     
-      .hamburg.active .hamburg3 {
+      .hamburg.display .hamburg3 {
         display: none;
       }
+
+      .menu {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: -36%;
+        background-color: rgba(170, 165, 165, 0.9);
+        height: 150vh;
+        width: 100vw;
+        padding: 30% 5% 5% 10%;
+        gap: 9%;
+        font-size: 30px;
+        font-weight: 800;
+        left: -120%;
+        transition: 0.2s;
+      }
+      
+      .menu.display {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: -36%;
+        background-color: rgba(170, 165, 165, 0.9);
+        width: 100vw;
+        height: 150vw;
+        padding: 30% 5% 5% 10%;
+        gap: 9%;
+        font-size: 30px;
+        font-weight: 800;
+        left: 0%;
+        backdrop-filter: blur(6px);
+      }
+
       .grtittle h1{
         display: flex;
         justify-content: center;
