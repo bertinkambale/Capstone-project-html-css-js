@@ -1,420 +1,467 @@
 body {
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: 'lato', sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.twitter {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 8%;
+  height: 5vh;
+}
+
+.twitter a {
+  text-decoration: none;
+  color: white;
+  padding-left: 3%;
+  padding-top: 5px;
+}
+
+.navlogo {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-left: 10%;
+  height: 10vh;
+  position: fixed;
+  width: 93%;
+}
+
+.navlogo img {
+  padding-top: 10px;
+}
+
+.seeall a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.partners li {
+  list-style: none;
+  color: rgb(196, 196, 196);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.navlogo ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navlogo ul li {
+  list-style: none;
+  padding-right: 50%;
+}
+
+.navlogo ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.kamuclass {
+  background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0) 2.75%, rgba(246, 242, 242, 0.9) 15.94%), url(img-folder/Background1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: 1px solid rgba(246, 242, 242, 0.9);
+  padding-left: 12%;
+  padding-bottom: 5%;
+  padding-top: 15%;
+  margin-bottom: -1.5%;
+}
+
+.kamuclass h1 {
+  color: rgb(250, 46, 46);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.kamuclass h2 {
+  color: rgb(250, 46, 46);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.stating-date {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.programsclass {
+  background-image: url(img-folder/background2.jpg);
+  color: white;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.programsclass h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.linebar {
+  background-color: rgb(250, 46, 46);
+  border-color: rgb(250, 46, 46);
+  height: 1px;
+  width: 40px;
+}
+
+.bloc-programs {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 5px;
+  margin-top: 3%;
+}
+
+.bloc1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(44, 42, 42, 0.7);
+  padding: 1%;
+}
+
+.bloc1:hover {
+  border: 1px solid #fff;
+}
+
+.bloc1 h3 {
+  color: rgb(250, 46, 46);
+  height: 10%;
+  margin-left: 2%;
+}
+
+.bloc1 img {
+  width: 100%;
+  height: 120px;
+}
+
+.seeall {
+  margin-bottom: 0;
+}
+
+.linebar2 {
+  width: 180px;
+  background-color: white;
+  height: 1px;
+  border-color: white;
+}
+
+.ourteacher h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.blocteacher {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.cardteach {
+  gap: 5%;
+  width: 40vw;
+  margin: 2% 2% 2% 2%;
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  height: 200px;
+}
+
+.cardteach img {
+  width: 120px;
+  height: 120px;
+  padding: 2% 2% 2% 2%;
+}
+
+.italic {
+  color: rgb(250, 46, 46);
+  font-size: 14px;
+  font-style: italic;
+}
+
+.picteach {
+  height: 120px;
+}
+
+.picteach h3 {
+  font-size: 20px;
+}
+
+.partners h3 {
+  display: flex;
+  justify-content: center;
+  color: rgb(196, 196, 196);
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.partners {
+  background-color: rgb(68, 68, 68);
+}
+
+.partners ul {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  padding-bottom: 50px;
+  width: 90%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 6%;
+  padding-bottom: 10px;
+}
+
+/* ----------------------------------------small devices---------------------------------------------- */
+@media (max-width: 768px) {
+  body {
     margin-left: 0%;
     margin-right: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
     font-family: 'lato', sans-serif;
   }
-header{
-  position: fixed;
-  width: 100%;
-  height: 100%;
-}
-.twitter{
-    background-color: black;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 8%;
-    height: 5vh;
-}
 
-.twitter a{
-    text-decoration: none;
-    color:white;
-    padding-left: 3%;
-    padding-top: 5px;
-}
+  .twitter {
+    display: none;
+  }
 
-.navlogo{
-    display: flex;
-    justify-content: space-between;
-    background-color:white;
-    padding-left: 10%;
-    height: 10vh;
+  .twitter.display {
+    display: none;
+  }
+
+  .img-logo {
+    display: none;
+  }
+
+  .hamburg {
+    display: block;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+  .hamburg.display {
+    display: block;
+    padding-top: 5%;
+    padding-left: 5%;
+    z-index: 5;
     position: fixed;
-    width: 93%;
-}
-.navlogo img{
-    padding-top: 10px;
-}
-.navlogo ul{
+  }
+
+  .hamburg1 {
+    margin: 5px;
+    background: rgb(0, 0, 0);
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+  }
+
+  .hamburg2 {
+    margin: 5px;
+    background: rgb(0, 0, 0);
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+  }
+
+  .hamburg3 {
+    margin: 5px;
+    background: rgb(0, 0, 0);
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+  }
+
+  .hamburg.display .hamburg1 {
+    transform: rotate(45deg);
+    width: 35px;
+  }
+
+  .hamburg.display .hamburg2 {
+    transform: translateY(-9px) rotate(-45deg);
+    width: 35px;
+  }
+
+  .hamburg.display .hamburg3 {
+    display: none;
+  }
+
+  .navlogo {
+    padding-left: 2%;
+  }
+
+  .navlogo ul {
     display: flex;
-    justify-content: flex-end;
-}
-.navlogo ul li{
+    justify-content: center;
+  }
+
+  .navlogo ul li {
     list-style: none;
-    padding-right: 50%;
-}
-.navlogo ul li a{
+    gap: 5%;
+  }
+
+  .navlogo ul li a {
     text-decoration: none;
-    color:black;
-}
-.kamuclass{
-    background-image:linear-gradient(180.45deg, rgba(182, 175, 175, 0) 2.75%, rgba(246, 242, 242, 0.9) 15.94%),url(img-folder/Background1.jpg);
+    color: black;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: -36%;
+    background-color: rgba(170, 165, 165, 0.9);
+    height: 150vh;
+    width: 100vw;
+    padding: 30% 5% 5% 15%;
+    gap: 9%;
+    font-size: 30px;
+    font-weight: 800;
+    left: -120%;
+    transition: 0.2s;
+  }
+
+  .menu.display {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: -36%;
+    background-color: rgba(170, 165, 165, 0.9);
+    width: 100vw;
+    height: 150vw;
+    padding: 30% 5% 5% 10%;
+    gap: 9%;
+    font-size: 30px;
+    font-weight: 800;
+    left: 0%;
+    backdrop-filter: blur(6px);
+  }
+
+  .hiden {
+    display: none;
+  }
+
+  .kamuclass {
+    background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0) 2.75%, rgba(246, 242, 242, 0.9) 15.94%), url(img-folder/Background1.jpg);
     background-size: cover;
     background-position: center;
     border-top: 1px solid rgba(246, 242, 242, 0.9);
-    padding-left: 12%;
-    padding-bottom:5%;
+    padding-bottom: 5%;
     padding-top: 15%;
     margin-bottom: -1.5%;
-}
-.kamuclass h1{
-    color: rgb(250, 46, 46);
+  }
+
+  .stating-date {
     font-size: 20px;
     font-weight: bold;
-}
-.kamuclass h2{
- color: rgb(250, 46, 46);
- font-size: 40px;
- font-weight: bold;
-}
-.stating-date{
-font-size: 50px;
-font-weight: bold;
-}
-.programsclass{
-background-image: url(img-folder/background2.jpg);
-color:white;
-padding-bottom: 15px;
-padding-top: 10px;
-}
-.programsclass h2{
-display: flex;
-justify-content: center;
-}
-.linebar{
-background-color: rgb(250, 46, 46);
-border-color: rgb(250, 46, 46);
-height: 1px;
-width: 40px;
-}
-.bloc-programs{
+  }
+
+  .programsclass {
+    background-image: url(img-folder/background2.jpg);
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 10px;
+  }
+
+  .programsclass h2 {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+  }
+
+  .linebar {
+    background-color: rgb(250, 46, 46);
+    border-color: rgb(250, 46, 46);
+    height: 1px;
+    width: 40px;
+  }
+
+  .bloc-programs {
+    display: flex;
+    flex-direction: column;
     padding-left: 10%;
     padding-right: 10%;
     gap: 5px;
     margin-top: 3%;
+  }
 
-}
-.bloc1{
-display: flex;
-flex-direction: column;
-text-align: center;
-background-color: rgba(44, 42, 42, 0.7);
-padding: 1%;
-}
-.bloc1:hover {
+  .bloc1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(44, 42, 42, 0.7);
+    padding: 1%;
+  }
+
+  .bloc1:hover {
     border: 1px solid #fff;
   }
-.bloc1 h3{
-color: rgb(250, 46, 46);
-height: 10%;
-margin-left: 2%;
-}
-.bloc1 img{
-  width: 100%;
-  height: 120px;
-}
-.seeall{
-    margin-bottom: 0;
-}
-.seeall a{
-color: #fff;
-text-decoration: none;
-}
-.linebar2{
-    width: 180px;
-    background-color: white;
-    height: 1px;
-    border-color: white;
-    border-radius:2px solid white;
-}
-.ourteacher h2{
+
+  .bloc1 h3 {
+    color: rgb(250, 46, 46);
+    height: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .bloc1 p {
+    padding-left: 3%;
+    text-align: justify;
+    padding-right: 2%;
+  }
+
+  .bloc1 img {
+    width: 100px;
+    height: 120px;
+  }
+
+  .blocteacher {
     display: flex;
-    justify-content: center;
-}
-.blocteacher{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     padding-left: 5%;
     padding-right: 5%;
-}
-.cardteach{
-    gap: 5%;
-width: 40vw;
-margin: 2% 2% 2% 2%;
-display: flex;
-flex-direction: row;
-font-size: 16px;
-height: 200px;
-}
-.cardteach img{
-  width: 120px;
-  height: 120px;
-  padding: 2% 2% 2% 2%
-}
-.italic{
-  color: rgb(250, 46, 46);
-  font-size: 14px;
-  font-style: italic;
-}
-.picteach{
-  height: 120px;
-}
-.picteach h3{
-  font-size: 20px;
-}
-.partners h3{
+  }
+
+  .cardteach {
     display: flex;
-    justify-content: center;
-    color: rgb(196, 196, 196);
-font-size: 30px;
-font-weight: 900;
-margin-bottom: 0;
-    
-}
-.partners{
- background-color: rgb(68, 68, 68);
-}
-.partners ul{
+    justify-content: space-between;
+    width: 85vw;
+  }
+
+  .cardteach img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .cardteach p {
+    text-align: justify;
+  }
+
+  .partners ul {
     display: flex;
-    justify-content: center;
-    gap: 10vw;
-    padding-bottom: 50px;
-    width: 90%;
-}
-.partners li{   
- list-style: none;
-color: rgb(196, 196, 196);
- font-size: 20px;
- font-weight: 900;
-}
-footer{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer {
     display: flex;
-    justify-content: center;
-    gap:6%;
-    padding-bottom: 10px;
-}
-
-/*----------------------------------------small devices----------------------------------------------*/
-@media(max-width:768px){
-    body {
-        margin-left: 0%;
-        margin-right: 0%;
-        margin-top: 0%;
-        margin-bottom: 0%;
-        font-family: 'lato', sans-serif;
-      }
-      .twitter{
-        display: none;
-    }
-    .twitter.display{
-      display: none;
-    }
-
-    .img-logo{
-      display: none;
-    }
-    
-    .hamburg {
-        display: block;
-        padding-top: 5%;
-        padding-left: 5%;
-      }
-    
-      .hamburg.display {
-        display: block;
-        padding-top: 5%;
-        padding-left: 5%;
-        z-index: 5;
-        position: fixed;
-      }
-    
-      .hamburg1 {
-        margin: 5px;
-        background: rgb(0, 0, 0);
-        height: 5px;
-        width: 30px;
-        border-radius: 5px;
-      }
-    
-      .hamburg2 {
-        margin: 5px;
-        background: rgb(0, 0, 0);
-        height: 5px;
-        width: 30px;
-        border-radius: 5px;
-      }
-    
-      .hamburg3 {
-        margin: 5px;
-        background: rgb(0, 0, 0);
-        height: 5px;
-        width: 30px;
-        border-radius: 5px;
-      }
-    
-      .hamburg.display .hamburg1 {
-        transform: rotate(45deg);
-        width: 35px;
-      }
-    
-      .hamburg.display .hamburg2 {
-        transform: translateY(-9px) rotate(-45deg);
-        width: 35px;
-      }
-    
-      .hamburg.display .hamburg3 {
-        display: none;
-      }
-      .navlogo{
-        padding-left: 2%;
-      }
-      .navlogo ul{
-        display: flex;
-        justify-content: center;
-      }
-      .navlogo ul li{
-          list-style: none;
-          gap:5%;
-          
-
-      }
-      .navlogo ul li a{
-          text-decoration: none;
-          color:black;
-      }
-      .menu {
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        top: -36%;
-        background-color: rgba(170, 165, 165, 0.9);
-        height: 150vh;
-        width: 100vw;
-        padding: 30% 5% 5% 15%;
-        gap: 9%;
-        font-size: 30px;
-        font-weight: 800;
-        left: -120%;
-        transition: 0.2s;
-      }
-      
-      .menu.display {
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        top: -36%;
-        background-color: rgba(170, 165, 165, 0.9);
-        width: 100vw;
-        height: 150vw;
-        padding: 30% 5% 5% 10%;
-        gap: 9%;
-        font-size: 30px;
-        font-weight: 800;
-        left: 0%;
-        backdrop-filter: blur(6px);
-      }
-
-      .hiden{
-        display: none;
-      }
-    
-      .kamuclass{
-        background-image:linear-gradient(180.45deg, rgba(182, 175, 175, 0) 2.75%, rgba(246, 242, 242, 0.9) 15.94%),url(img-folder/Background1.jpg);
-        background-size: cover;
-        background-position: center;
-        border-top: 1px solid rgba(246, 242, 242, 0.9);
-        padding-bottom:5%;
-        padding-top: 15%;
-        margin-bottom: -1.5%;
-      }
-      .stating-date{
-        font-size: 20px;
-        font-weight: bold;
-      }
-      .programsclass{
-        background-image: url(img-folder/background2.jpg);
-        color:white;
-        padding-bottom: 15px;
-        padding-top: 10px;
-        }
-        .programsclass h2{
-        display: flex;
-        justify-content: center;
-        }
-        .linebar{
-        background-color: rgb(250, 46, 46);
-        border-color: rgb(250, 46, 46);
-        height: 1px;
-        width: 40px;
-        }
-        .bloc-programs{
-            display: flex;
-            flex-direction: column;
-            padding-left: 10%;
-            padding-right: 10%;
-            gap: 5px;
-            margin-top: 3%;
-        
-        }
-        .bloc1{
-        display: flex;
-        flex-direction: row;
-        background-color: rgba(44, 42, 42, 0.7);
-        padding: 1%;
-        }
-        .bloc1:hover {
-            border: 1px solid #fff;
-          }
-        .bloc1 h3{
-        color: rgb(250, 46, 46);
-        height: 10%;
-        margin-left: 2%;
-        margin-right: 2%;
-        }
-        .bloc1 p{
-        padding-left: 3%;
-        text-align:justify;
-        padding-right: 2%;
-        }
-
-        .bloc1 img{
-          width: 100px;
-          height: 120px;
-        }
-        
-        .blocteacher{
-            display: flex;
-            flex-direction: column;
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-
-        .cardteach{
-        display: flex;
-        justify-content: space-between;
-        width: 85vw;
-        }
-        .cardteach img{
-          width: 120px;
-          height: 120px;
-        }
-        .cardteach p{
-        text-align: justify;
-        }
-        .partners ul{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        footer{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+    flex-direction: column;
+    align-items: center;
+  }
 }
