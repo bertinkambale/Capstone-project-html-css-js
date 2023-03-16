@@ -33,6 +33,13 @@ body {
   padding-top: 10px;
 }
 
+.partners li {
+  list-style: none;
+  color: rgb(196, 196, 196);
+  font-size: 20px;
+  font-weight: 900;
+}
+
 .navlogo ul {
   display: flex;
   justify-content: flex-end;
@@ -59,7 +66,7 @@ body {
 .grtittle h1 {
   display: flex;
   justify-content: center;
-  color:#EC5242;
+  color: #ec5242;
   font-weight: bold;
   font-size: xx-large;
 }
@@ -93,8 +100,8 @@ body {
 }
 
 .linebar {
-  background-color: #EC5242;
-  border-color: #EC5242;
+  background-color: #ec5242;
+  border-color: #ec5242;
   height: 1px;
   width: 40px;
 }
@@ -147,7 +154,8 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.section-red{
+
+.section-red {
   height: 200px;
   width: 400px;
   background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.5) 0), url(img-folder/students1.jfif);
@@ -157,7 +165,8 @@ body {
   transition: all 0.5s ease-in-out;
   color: #e0e3e3;
 }
-.section-red1{
+
+.section-red1 {
   height: 200px;
   width: 400px;
   background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.5) 0), url(img-folder/students2.jfif);
@@ -168,10 +177,10 @@ body {
   color: #e0e3e3;
 }
 
-
 .partners {
   background-color: rgb(68, 68, 68);
 }
+
 .partners h3 {
   display: flex;
   justify-content: center;
@@ -180,18 +189,13 @@ body {
   font-weight: 900;
   margin-bottom: 0;
 }
+
 .partners ul {
   display: flex;
   justify-content: center;
   gap: 10vw;
   padding-bottom: 50px;
   width: 90%;
-}
-.partners li {
-  list-style: none;
-  color: rgb(196, 196, 196);
-  font-size: 20px;
-  font-weight: 900;
 }
 
 footer {
@@ -201,7 +205,7 @@ footer {
   padding-left: 14%;
   padding-right: 4%;
   background-color: white;
-  color:rgb(46, 46, 46);
+  color: rgb(46, 46, 46);
   height: 120px;
 }
 
@@ -228,11 +232,10 @@ footer {
   }
 
   .navlogo {
-        display: block;
-        background-color: white;
-        padding-left: 3%;
-        height: 10vh;
-    
+    display: block;
+    background-color: white;
+    padding-left: 3%;
+    height: 10vh;
   }
 
   .navlogo ul {
@@ -326,7 +329,7 @@ footer {
   .grtittle h1 {
     display: flex;
     justify-content: center;
-    color: #EC5242;
+    color: #ec5242;
     font-weight: bold;
     font-size: x-large;
   }
@@ -394,7 +397,8 @@ footer {
     gap: 15px;
     padding-bottom: 20px;
   }
-  .section-red1{
+
+  .section-red1 {
     height: 200px;
     width: 400px;
     background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.5) 0), url(img-folder/students1.jfif);
@@ -404,7 +408,8 @@ footer {
     transition: all 0.5s ease-in-out;
     color: #e0e3e3;
   }
-  .section-red{
+
+  .section-red {
     height: 200px;
     width: 400px;
     background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.5) 0), url(img-folder/students2.jfif);
@@ -414,11 +419,13 @@ footer {
     transition: all 0.5s ease-in-out;
     color: #e0e3e3;
   }
+
   .partners ul {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   footer {
     display: flex;
     flex-direction: column;
@@ -428,7 +435,7 @@ footer {
     padding-right: 5%;
     padding-bottom: 10%;
     padding-top: 18px;
-    background-color:white;
+    background-color: white;
     color: rgb(46, 46, 46);
   }
 }
