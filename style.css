@@ -82,24 +82,25 @@ header {
 }
 
 .hello {
-  color: #EC5242;
+  color: #ec5242;
   font-size: 20px;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .kamuclass h1 {
-  color: #EC5242;
+  color: #ec5242;
   font-size: 40px;
   font-weight: 900;
 }
-.allP{
-  color:#272A31;
+
+.allP {
+  color: #272a31;
 }
 
 .stating-date {
   font-size: 30px;
   font-weight: 900;
-  color:#272A31;
+  color: #272a31;
 }
 
 .programsclass {
@@ -115,8 +116,8 @@ header {
 }
 
 .linebar {
-  background-color:#EC5242;
-  border-color: #EC5242;
+  background-color: #ec5242;
+  border-color: #ec5242;
   height: 1px;
   width: 40px;
 }
@@ -144,7 +145,7 @@ header {
 }
 
 .bloc1 h3 {
-  color: #EC5242;
+  color: #ec5242;
   height: 10%;
   margin-left: 2%;
 }
@@ -196,7 +197,7 @@ header {
 }
 
 .italic {
-  color:#EC5242;
+  color: #ec5242;
   font-size: 14px;
   font-style: italic;
 }
@@ -401,8 +402,8 @@ footer {
   }
 
   .linebar {
-    background-color:#EC5242;
-    border-color:#EC5242;
+    background-color: #ec5242;
+    border-color: #ec5242;
     height: 1px;
     width: 40px;
   }
@@ -424,7 +425,7 @@ footer {
     background-color: rgba(44, 42, 42, 0.7);
     padding: 1%;
     gap: 20px;
-    width:96%;
+    width: 96%;
   }
 
   .bloc1:hover {
@@ -432,18 +433,18 @@ footer {
   }
 
   .bloc1 h3 {
-    color:#EC5242;
+    color: #ec5242;
     height: 10%;
     margin-left: 2%;
     margin-right: 2%;
-    width:30%;
+    width: 30%;
   }
 
   .bloc1 p {
     padding-left: 3%;
     text-align: justify;
     padding-right: 2%;
-    width:100%;
+    width: 100%;
   }
 
   .bloc1 i {
@@ -452,12 +453,13 @@ footer {
     align-items: center;
     justify-content: center;
   }
+
   .linebar2 {
     width: 20%;
     background-color: white;
     height: 1px;
     border-color: white;
-}
+  }
 
   .blocteacher {
     display: flex;
