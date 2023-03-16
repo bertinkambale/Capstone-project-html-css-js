@@ -301,7 +301,6 @@ footer {
     background-color: rgba(170, 165, 165, 0.9);
     height: 150vh;
     width: 100vw;
-    padding: 30% 5% 5% 10%;
     gap: 9%;
     font-size: 30px;
     font-weight: 800;
@@ -313,17 +312,17 @@ footer {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: -76%;
+    top: -36%;
     background-color: rgba(170, 165, 165, 0.9);
     width: 100vw;
-    height: 150vw;
-    padding: 30% 5% 5% 10%;
+    height: 102%;
+    padding-left: 15%;
     gap: 9%;
     font-size: 30px;
     font-weight: 800;
     left: 0%;
     backdrop-filter: blur(6px);
-    padding-bottom: 200px;
+    padding-bottom: 234px;
   }
 
   .grtittle h1 {
