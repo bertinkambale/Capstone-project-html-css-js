@@ -13,37 +13,37 @@ document.querySelectorAll('menu-item').forEach((n) => n.addEventListener('click'
 
 const Teachers = [{
   teacherImagee: 'img-folder/teacher1.jpg',
-  teachearName: 'Bella mwa',
+  teachearName: 'Bella',
   teacherDomain: 'her,english teacher',
   teacherAbout: 'bella is best teacher of english she is from USA.',
 },
 {
   teacherImagee: 'img-folder/teacher2.jpg',
-  teachearName: 'Bertin kam',
+  teachearName: 'Bertin',
   teacherDomain: 'him,spanish teacher',
   teacherAbout: 'bertin is best teacher of spanish he is from Spain.',
 },
 {
   teacherImagee: 'img-folder/teacher3.jfif',
-  teachearName: 'Linda ker',
+  teachearName: 'Linda',
   teacherDomain: 'her,Arbic teacher',
   teacherAbout: 'Linda is best teacher of Arbic she is from Arabi.',
 },
 {
   teacherImagee: 'img-folder/teacher4.jfif',
-  teachearName: 'Benjamin nyam',
+  teachearName: 'Benjamin',
   teacherDomain: 'him,Lingala teacher',
   teacherAbout: 'benjamin is best teacher of lingala he is from DRC.',
 },
 {
   teacherImagee: 'img-folder/teacher5.jfif',
-  teachearName: 'kevin Zam',
+  teachearName: 'kevin',
   teacherDomain: 'him,french teacher',
   teacherAbout: 'kevin is best teacher of french he is from France.',
 },
 {
   teacherImagee: 'img-folder/teacher6.jfif',
-  teachearName: 'Rachel Bim',
+  teachearName: 'Rachel',
   teacherDomain: 'her,Italiano teacher',
   teacherAbout: 'Rachel is best teacher of Italiano she is from Italia.',
 },
@@ -52,7 +52,7 @@ const Teachers = [{
 const allCards = document.querySelector('.blocteacher');
 
 Teachers.forEach((cards) => {
-  const div = document.createElement('div');
+  const div = document.createElement('section');
   div.innerHTML = `<div class="cardteach">
            <img src="${cards.teacherImagee}" alt="">
       <div class="picteach">
