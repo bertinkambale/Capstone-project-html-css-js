@@ -85,6 +85,7 @@ header {
   color: #ec5242;
   font-size: 20px;
   font-weight: bold;
+  padding-top: 20px;
 }
 
 .kamuclass h1 {
@@ -187,12 +188,10 @@ header {
   display: flex;
   flex-direction: row;
   font-size: 16px;
-  height: 200px;
 }
 
 .cardteach img {
-  width: 150px;
-  height: 130px;
+  width: 50%;
   padding: 2% 2% 2% 2%;
 }
 
@@ -202,9 +201,6 @@ header {
   font-style: italic;
 }
 
-.picteach {
-  height: 120px;
-}
 
 .picteach h3 {
   font-size: 20px;
@@ -431,20 +427,23 @@ footer {
   .bloc1:hover {
     border: 1px solid #fff;
   }
+  .picteach {
+    width: 50%;
+  }
 
   .bloc1 h3 {
     color: #ec5242;
     height: 10%;
     margin-left: 2%;
     margin-right: 2%;
-    width: 30%;
+    width: 18%;
   }
 
   .bloc1 p {
     padding-left: 3%;
     text-align: justify;
     padding-right: 2%;
-    width: 100%;
+    width: 43%;
   }
 
   .bloc1 i {
@@ -452,6 +451,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    width:18%;
   }
 
   .linebar2 {
@@ -464,34 +464,48 @@ footer {
   .blocteacher {
     display: flex;
     flex-direction: column;
+  }
+  .blocteacher section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     padding-left: 0%;
     padding-right: 5%;
   }
 
   .cardteach {
     display: flex;
-    width: 85vw;
-    height: 136px;
+    width: 100%;
+    height: 100%;
   }
 
-  .cardteach img {
-    width: 150px;
-    height: 130px;
-  }
+  /* .cardteach img {
+    /* width:;
+    height: 130px; */
 
   .cardteach p {
     text-align: justify;
   }
-
+  .partners{
+    width: 106%;
+  }
   .partners ul {
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     align-items: center;
+  }
+  .partners ul li{
+    font-size: 70%;
+    padding-right: 9%;
+    margin: 0;
   }
 
   footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    padding-left: 25%;
+    padding-right: 21%;
+    font-size: 61%;
   }
 }
