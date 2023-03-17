@@ -179,7 +179,7 @@ body {
 
 .partners {
   background-color: rgb(68, 68, 68);
-  width:112%
+  width: 112%;
 }
 
 .partners h3 {
@@ -424,6 +424,7 @@ footer {
     align-items: center;
     padding-left: 0%;
   }
+
   .partners li {
     list-style: none;
     color: rgb(196, 196, 196);
@@ -431,7 +432,7 @@ footer {
     font-weight: 900;
     padding-right: 1%;
     padding-left: 1%;
-}
+  }
 
   footer {
     display: flex;
