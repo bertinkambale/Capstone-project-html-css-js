@@ -1,0 +1,449 @@
+body {
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-family: 'lato', sans-serif;
+}
+
+.twitter {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 8%;
+  height: 5vh;
+}
+
+.twitter a {
+  text-decoration: none;
+  color: white;
+  padding-left: 3%;
+  padding-top: 5px;
+}
+
+.navlogo {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-left: 3%;
+  height: 10vh;
+}
+
+.navlogo img {
+  padding-top: 10px;
+}
+
+.partners li {
+  list-style: none;
+  color: rgb(196, 196, 196);
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.navlogo ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navlogo ul li {
+  list-style: none;
+  padding-right: 50%;
+}
+
+.navlogo ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.grtittle {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0) 2.75%, rgba(246, 242, 242, 0.9) 15.94%), url(img-folder/Background1.jpg);
+}
+
+.grtittle h1 {
+  display: flex;
+  justify-content: center;
+  color: #ec5242;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.centerpar {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  padding: 3% 5% 3% 5%;
+  display: flex;
+}
+
+.contactclass1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactclass2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.contactclass3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linebar {
+  background-color: #ec5242;
+  border-color: #ec5242;
+  height: 1px;
+  width: 40px;
+}
+
+.classlog {
+  border-bottom: 1px solid grey;
+}
+
+.classlog img {
+  padding-right: 40%;
+  padding-left: 33%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.classlog h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.classlog p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+
+.vissonsee h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.vissonsee p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vissonsee div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-red {
+  height: 200px;
+  width: 400px;
+  background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.5) 0), url(img-folder/students1.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  transition: all 0.5s ease-in-out;
+  color: #e0e3e3;
+}
+
+.section-red1 {
+  height: 200px;
+  width: 400px;
+  background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.5) 0), url(img-folder/students2.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  transition: all 0.5s ease-in-out;
+  color: #e0e3e3;
+}
+
+.partners {
+  background-color: rgb(68, 68, 68);
+  width: 112%;
+}
+
+.partners h3 {
+  display: flex;
+  justify-content: center;
+  color: rgb(196, 196, 196);
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.partners ul {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  padding-bottom: 50px;
+  width: 90%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 14%;
+  padding-right: 4%;
+  background-color: white;
+  color: rgb(46, 46, 46);
+  height: 120px;
+}
+
+/* ----------------------------------------small devices---------------------------------------------- */
+@media (max-width: 768px) {
+  body {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'lato', sans-serif;
+  }
+
+  .twitter {
+    display: none;
+  }
+
+  .navlogo a {
+    display: flex;
+  }
+
+  .navlogo img {
+    display: none;
+  }
+
+  .navlogo {
+    display: block;
+    background-color: white;
+    padding-left: 3%;
+    height: 10vh;
+  }
+
+  .navlogo ul {
+    display: none;
+  }
+
+  .hamburg {
+    display: block;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+  .hamburg.display {
+    display: block;
+    padding-top: 5%;
+    padding-left: 5%;
+    z-index: 5;
+    position: fixed;
+  }
+
+  .hamburg1 {
+    margin: 5px;
+    background: rgb(0, 0, 0);
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+  }
+
+  .hamburg2 {
+    margin: 5px;
+    background: rgb(0, 0, 0);
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+  }
+
+  .hamburg3 {
+    margin: 5px;
+    background: rgb(0, 0, 0);
+    height: 5px;
+    width: 30px;
+    border-radius: 5px;
+  }
+
+  .hamburg.display .hamburg1 {
+    transform: rotate(45deg);
+    width: 35px;
+  }
+
+  .hamburg.display .hamburg2 {
+    transform: translateY(-9px) rotate(-45deg);
+    width: 35px;
+  }
+
+  .hamburg.display .hamburg3 {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: rgba(170, 165, 165, 0.9);
+    height: 150vh;
+    width: 100vw;
+    gap: 9%;
+    font-size: 30px;
+    font-weight: 800;
+    left: -120%;
+    transition: 0.2s;
+  }
+
+  .menu.display {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: -36%;
+    background-color: rgba(170, 165, 165, 0.9);
+    width: 100vw;
+    height: 102%;
+    padding-left: 15%;
+    gap: 9%;
+    font-size: 30px;
+    font-weight: 800;
+    left: 0%;
+    backdrop-filter: blur(6px);
+    padding-bottom: 234px;
+  }
+
+  .grtittle h1 {
+    display: flex;
+    justify-content: center;
+    color: #ec5242;
+    font-weight: bold;
+    font-size: x-large;
+  }
+
+  .grtittle {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0) 2.75%, rgba(246, 242, 242, 0.9) 15.94%), url(img-folder/Background1.jpg);
+  }
+
+  .centerpar {
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    padding: 3% 2% 3% 2%;
+    display: flex;
+  }
+
+  .classlog {
+    border-bottom: 1px solid grey;
+  }
+
+  .classlog img {
+    height: 40vw;
+    padding-left: 30%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+  }
+
+  .classlog h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .classlog p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+  }
+
+  .vissonsee h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+  }
+
+  .vissonsee p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vissonsee div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 20px;
+  }
+
+  .section-red1 {
+    width: 100%;
+    background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.5) 0), url(img-folder/students1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    transition: all 0.5s ease-in-out;
+    color: #e0e3e3;
+  }
+
+  .section-red {
+    width: 100%;
+    background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.5) 0), url(img-folder/students2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    transition: all 0.5s ease-in-out;
+    color: #e0e3e3;
+  }
+
+  .partners ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0%;
+  }
+
+  .partners li {
+    list-style: none;
+    color: rgb(196, 196, 196);
+    font-size: 12px;
+    font-weight: 900;
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    padding-top: 18px;
+    background-color: white;
+    color: rgb(46, 46, 46);
+  }
+}
