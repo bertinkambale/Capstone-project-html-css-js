@@ -39,7 +39,6 @@ Kamulete Training Center
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[Capston project kamulete Training Center]** Show information about the languages they are teaching there.
 
@@ -50,7 +49,6 @@ Kamulete Training Center
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://bertinkambale.github.io/Capstone-project-html-css-js/)
 - [Loom Video Link](https://www.loom.com/share/aa3297da89f746acb0c99261d995b02b)
@@ -124,7 +122,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [Join]
 - [Sponsor]
@@ -155,7 +152,6 @@ Feel free to check the [issues page](https://github.com/bertinkambale/Capstone-p
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 I would like to thank Microverse.
 I would like to give appropriate credit to [Cindy Shin](https://www.behance.net/adagio07) the author of the original design.
 I would like to thank caleb and my teams for inspired my codebase
